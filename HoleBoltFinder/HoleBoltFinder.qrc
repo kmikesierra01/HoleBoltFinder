@@ -1,0 +1,13 @@
+﻿<RCC>
+    <qresource prefix="HoleBoltFinder">
+        <file>icons/ic_open_folder.svg</file>
+        <file>icons/ic_settings.svg</file>
+        <file>icons/ic_hole_search.svg</file>
+        <file>icons/ic_bolt_search.svg</file>
+        <file>icons/ic_play.svg</file>
+        <file>icons/HoleBoltFinderIcon.png</file>
+    </qresource>
+    <qresource prefix="/">
+        <file>theme.qss</file>
+    </qresource>
+</RCC>

@@ -1,0 +1,133 @@
+[
+    {
+        "name": "Preset_01",
+        "points": [
+            {
+                "cx": -251.8000030517578,
+                "cy": 434.20001220703125,
+                "cz": -361.5,
+                "file": "./samples/sample1.pcd",
+                "floorRemovalDist": 6,
+                "surfaceLayer": 2.5,
+                "sx": 60,
+                "sy": 60,
+                "sz": 40,
+                "type": "Bolt"
+            },
+            {
+                "cx": 930,
+                "cy": 479.6000061035156,
+                "cz": -218,
+                "file": "./samples/sample1.pcd",
+                "floorRemovalDist": 5,
+                "surfaceLayer": 1.100000023841858,
+                "sx": 70,
+                "sy": 70,
+                "sz": 40,
+                "type": "Bolt"
+            },
+            {
+                "cx": -280.8999938964844,
+                "cy": 512.5,
+                "cz": 185.3000030517578,
+                "file": "./samples/sample2.pcd",
+                "floorRemovalDist": 5,
+                "surfaceLayer": 1.100000023841858,
+                "sx": 40,
+                "sy": 40,
+                "sz": 53,
+                "type": "Bolt"
+            },
+            {
+                "cx": -206.60000610351562,
+                "cy": 446.20001220703125,
+                "cz": 96.5999984741211,
+                "file": "./samples/sample2.pcd",
+                "floorRemovalDist": 5,
+                "surfaceLayer": 1.100000023841858,
+                "sx": 40,
+                "sy": 40,
+                "sz": 53,
+                "type": "Bolt"
+            },
+            {
+                "cx": 70.80000305175781,
+                "cy": 207.1999969482422,
+                "cz": 140.5,
+                "file": "./samples/sample2.pcd",
+                "floorRemovalDist": 5,
+                "surfaceLayer": 1.100000023841858,
+                "sx": 40,
+                "sy": 40,
+                "sz": 53,
+                "type": "Bolt"
+            },
+            {
+                "cx": 230.89999389648438,
+                "cy": 272.5,
+                "cz": 199.5,
+                "file": "./samples/sample2.pcd",
+                "floorRemovalDist": 1,
+                "surfaceLayer": 1,
+                "sx": 30,
+                "sy": 30,
+                "sz": 28,
+                "type": "Bolt"
+            },
+            {
+                "cx": 97.80000305175781,
+                "cy": 214.3000030517578,
+                "cz": 126.5999984741211,
+                "file": "./samples/sample2.pcd",
+                "planeFitTolerance": 0.699999988079071,
+                "sx": 30,
+                "sy": 30,
+                "sz": 28,
+                "type": "Hole"
+            },
+            {
+                "cx": 143.1999969482422,
+                "cy": 412.79998779296875,
+                "cz": 157.5,
+                "file": "./samples/sample2.pcd",
+                "planeFitTolerance": 0.699999988079071,
+                "sx": 40,
+                "sy": 40,
+                "sz": 28,
+                "type": "Hole"
+            },
+            {
+                "cx": 40.900001525878906,
+                "cy": 315.6000061035156,
+                "cz": 158.60000610351562,
+                "file": "./samples/sample2.pcd",
+                "planeFitTolerance": 0.699999988079071,
+                "sx": 40,
+                "sy": 40,
+                "sz": 28,
+                "type": "Hole"
+            },
+            {
+                "cx": -219.1999969482422,
+                "cy": 384.5,
+                "cz": 93.4000015258789,
+                "file": "./samples/sample2.pcd",
+                "planeFitTolerance": 0.699999988079071,
+                "sx": 55,
+                "sy": 55,
+                "sz": 28,
+                "type": "Hole"
+            }
+        ]
+    },
+    {
+        "name": "Preset_02",
+        "points": [
+        ]
+    },
+    {
+        "name": "Preset_03",
+        "points": [
+        ]
+    }
+]

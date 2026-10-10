@@ -1,0 +1,38 @@
+# Normalize line endings: store LF in repo, checkout as CRLF on all platforms
+* text=auto eol=crlf
+# Explicitly text files
+*.cpp    text eol=crlf
+*.h      text eol=crlf
+*.ui     text eol=crlf
+*.qss    text eol=crlf
+*.qrc    text eol=crlf
+*.rc     text eol=crlf
+*.md     text eol=crlf
+*.txt    text eol=crlf
+*.ini    text eol=crlf
+*.sln    text eol=crlf
+*.vcxproj        text eol=crlf
+*.vcxproj.filters text eol=crlf
+*.props  text eol=crlf
+# Binary files (no conversion)
+*.dll    -text
+*.lib    -text
+*.exe    -text
+*.png    -text
+*.jpg    -text
+*.ico    -text
+*.res    -text
+*.mp4  filter=lfs diff=lfs merge=lfs -text
+*.avi  filter=lfs diff=lfs merge=lfs -text
+*.mov  filter=lfs diff=lfs merge=lfs -text
+*.mkv  filter=lfs diff=lfs merge=lfs -text
+*.wmv  filter=lfs diff=lfs merge=lfs -text
+*.pdf  filter=lfs diff=lfs merge=lfs -text
+*.pptx filter=lfs diff=lfs merge=lfs -text
+*.docx filter=lfs diff=lfs merge=lfs -text
+*.xlsx filter=lfs diff=lfs merge=lfs -text
+x64/Release/opencv_world480.dll filter=lfs diff=lfs merge=lfs -text
+lib/opencv_480/opencv_world480.lib filter=lfs diff=lfs merge=lfs -text
+docs/images/*.jpg filter=lfs diff=lfs merge=lfs -text
+docs/images/*.gif filter=lfs diff=lfs merge=lfs -text
+*.pcd filter=lfs diff=lfs merge=lfs -text
